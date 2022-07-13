@@ -139,10 +139,3 @@ const date = new Date(new Date().setDate(new Date().getDate() - 365));
 
 ![Parabéns!](https://raw.githubusercontent.com/devsuperior/bds-assets/main/img/trophy.png)
 
-- Quero muito saber seu feedback
-  - O que você está achando da nossa abordagem?
-  - Você está conseguindo acompanhar?
-  - O que você está achando do evento?
-- Participe
-  - Comente no Instagram e marque a gente @devsuperior.ig
-  - Divulgue seu projeto no Linkedin e marque a DevSuperior
