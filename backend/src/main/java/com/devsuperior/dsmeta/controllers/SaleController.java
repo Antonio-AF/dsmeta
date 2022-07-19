@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.dsmeta.entities.Sales;
+import com.devsuperior.dsmeta.entities.Sale;
 import com.devsuperior.dsmeta.services.SalesService;
 
 @RestController
@@ -20,12 +20,12 @@ public class SaleController {
 	
 	
 	@GetMapping
-	public Page<Sales> findSales(
+	public Page<Sale> findSales(
 			@RequestParam(value="minDate", defaultValue = "") String minDate,
 			@RequestParam(value="maxDate", defaultValue = "") String maxDate,
 			Pageable pageable){
 		
-		return service.findSale(minDate, maxDate, pageable);		
+		return service.findSales(minDate, maxDate, pageable);		
 	}
 
 }
